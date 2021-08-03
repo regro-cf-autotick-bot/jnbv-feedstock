@@ -1,5 +1,5 @@
 {% set name = "jnbv" %}
-{% set version = "2021.7.28.0" %}
+{% set version = "2021.8.3.0" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/jnbv-{{ version }}.tar.gz
-  sha256: c6850172300222b3f4b43381e7a03c63a57f0620e736f5d491b13aff48009bd5
+  sha256: dca2acbeebb07ba74fb18345d15d1c4cded0f814d956e7c0aca6294379b51243
 
 build:
   number: 0
