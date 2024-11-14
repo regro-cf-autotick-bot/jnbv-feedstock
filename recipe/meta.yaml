@@ -1,5 +1,5 @@
 {% set name = "jnbv" %}
-{% set version = "2022.1.29" %}
+{% set version = "2024.11.14" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/jnbv-{{ version }}.tar.gz
-  sha256: c26427febef00b97fb340fa24e96124e3d4e3e86751346adcff4d5fa0fe101d7
+  sha256: 6ed6558bafdfd33a494488103e5ee97c8d18d79717f83d6f226fe669d7cd43c2
 
 build:
   number: 0
